@@ -36,6 +36,7 @@ export function iterationCount(a) {
   и верните итоговый результат.
 */
 export function symbolsReplace(message) {
+  let mess_length=message.length;
   let message2="";
     let i=1;
     if(mess_length>=3)
